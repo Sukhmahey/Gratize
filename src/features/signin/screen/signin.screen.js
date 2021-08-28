@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, Alert } from "react-native";
 import { SafeArea } from "../../../components/SafeArea.component";
 
 import { InputText } from "../../../components/TextInput.component";

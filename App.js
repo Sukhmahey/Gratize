@@ -23,9 +23,9 @@ const App = () => {
               headerShown: false,
             }}
           >
-            <Stack.Screen name="Welcome" component={Welcome} />
             <Stack.Screen name="SignIn" component={SignIn} />
             <Stack.Screen name="SignUp" component={SignUp} />
+            <Stack.Screen name="Welcome" component={Welcome} />
           </Stack.Navigator>
         </NavigationContainer>
       </ThemeProvider>

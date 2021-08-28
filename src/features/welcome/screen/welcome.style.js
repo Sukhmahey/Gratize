@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+import { Text } from "react-native";
 export const Header = styled.View`
   flex: 3;
 `;
